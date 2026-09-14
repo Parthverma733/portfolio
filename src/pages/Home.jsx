@@ -1,5 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {
+  SiPython,
+  SiReact,
+  SiCplusplus,
+  SiFastapi,
+  SiMysql,
+  SiGithub,
+  SiJavascript,
+} from "react-icons/si";
+import { LuBot, LuDatabase, LuSparkles, LuPlug } from "react-icons/lu";
 import portrait from "../assets/portrait.jpg";
 import {
   IconArrowRight,
@@ -279,78 +289,89 @@ export default function Home() {
                     ALWAYS EVOLVING
                   </span>
                 </div>
+
                 <div className="skills-grid">
                   <Skill
-                    abbr="PY"
+                    icon={<SiPython size={24} />}
                     name="Python"
-                    sub="FastAPI / Async"
+                    sub="AI & Backend Development"
                     color="#fbbf24"
                   />
+
                   <Skill
-                    icon={<IconBot size={24} />}
+                    icon={<LuBot size={24} />}
                     name="Agentic AI"
-                    sub="Autonomous Tools"
+                    sub="LLM Apps & Tool Calling"
                     color="#c084fc"
                   />
+
                   <Skill
-                    icon={<IconGitFork size={24} />}
+                    icon={<LuSparkles size={24} />}
                     name="LangChain"
-                    sub="Orchestration"
+                    sub="LLM & RAG Workflows"
                     color="#fbbf24"
                   />
+
                   <Skill
-                    icon={<IconDatabase size={24} />}
+                    icon={<LuDatabase size={24} />}
                     name="RAG & Embeddings"
-                    sub="Pinecone / Chroma"
+                    sub="Semantic Search"
                     color="#c084fc"
                   />
+
                   <Skill
-                    icon={<IconLayers size={24} />}
-                    name="MCP Protocol"
-                    sub="Context standard"
+                    icon={<LuPlug size={24} />}
+                    name="MCP"
+                    sub="Tool Integration"
                     color="#fbbf24"
                   />
+
                   <Skill
-                    abbr="C++"
-                    name="C++ / Compilers"
-                    sub="Low-latency engine"
+                    icon={<SiCplusplus size={24} />}
+                    name="C++"
+                    sub="DSA & Compiler Development"
                     color="#38bdf8"
                   />
+
                   <Skill
-                    abbr="☕"
-                    name="Java"
-                    sub="Enterprise Systems"
-                    color="#fb923c"
-                  />
-                  <Skill
-                    icon={<IconAtom size={24} />}
-                    name="React & JS"
-                    sub="Frontend Interfaces"
+                    icon={<SiReact size={24} />}
+                    name="React & JavaScript"
+                    sub="Frontend Applications"
                     color="#22d3ee"
                   />
+
                   <Skill
-                    icon={<IconServer size={24} />}
-                    name="SQL / Postgres"
-                    sub="Relational & pgvector"
+                    icon={<SiMysql size={24} />}
+                    name="SQL / MySQL"
+                    sub="Database Management"
                     color="#34d399"
                   />
+
                   <Skill
-                    icon={<IconSparkles size={24} />}
-                    name="OpenAI & LLMs"
-                    sub="Claude / DeepSeek"
+                    icon={<LuSparkles size={24} />}
+                    name="LLM APIs"
+                    sub="Model Integration"
                     color="#f472b6"
                   />
+
                   <Skill
-                    icon={<IconGitBranch size={24} />}
-                    name="Git / CI/CD"
-                    sub="GitHub Actions"
+                    icon={<SiGithub size={24} />}
+                    name="Git / GitHub"
+                    sub="Version Control"
                     color="#fb923c"
                   />
+
                   <Skill
-                    icon={<IconZap size={24} />}
+                    icon={<SiFastapi size={24} />}
                     name="FastAPI"
-                    sub="Async Services"
+                    sub="REST APIs & Async Services"
                     color="#2dd4bf"
+                  />
+                  <Skill
+                    icon={<SiJavascript size={24} />}
+                    name="JavaScript"
+                    sub="Frontend & Web Development"
+                    color="#facc15"
                   />
                 </div>
               </div>
@@ -489,8 +510,8 @@ export default function Home() {
                       </div>
                       <div>
                         <small>Email</small>
-                        <a href="mailto:parth.verma.dev@gmail.com">
-                          parth.verma.dev@gmail.com
+                        <a href="mailto:parthverma733@gmail.com">
+                          parthverma733@gmail.com
                         </a>
                       </div>
                     </div>
@@ -500,7 +521,7 @@ export default function Home() {
                       </div>
                       <div>
                         <small>Location</small>
-                        <span>India • Available Globally (Remote)</span>
+                        <span>India</span>
                       </div>
                     </div>
                     <div className="info-row">

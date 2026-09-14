@@ -395,11 +395,11 @@ export default function Projects() {
                 ARCHITECTED &amp; <span>ENGINEERED.</span>
               </h1>
               <p>
-                Autonomous multi-agent swarms, low-latency semantic retrieval fabrics, deterministic AST compilers, and
-                kernel-adjacent telemetry systems constructed for verifiable accuracy under high operational load.
+                Building practical AI and software systems — from RAG-based knowledge assistants and LLM developer tools to backend APIs, compilers, algorithms, and full-stack applications.
+
               </p>
             </div>
-            <div className="metrics">
+            {/* <div className="metrics">
               <div className="metric-card">
                 <span className="label">DEPLOYED RUNTIMES</span>
                 <span className="value">08 Systems</span>
@@ -428,7 +428,7 @@ export default function Projects() {
                   <Icon name="terminal" /> Bare Metal &amp; POSIX
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -555,9 +555,8 @@ export default function Projects() {
                 </div>
                 <h2>Have a project or architecture in mind?</h2>
                 <p>
-                  Available for AI engineering positions, autonomous agentic system design, and high-performance
-                  low-latency backend infrastructure. Let&apos;s turn computational bottlenecks into competitive
-                  advantages.
+                  Open to AI/GenAI and Software Engineering opportunities, where I can build practical LLM applications, backend systems, and intelligent developer tools while continuing to grow as an engineer.
+
                 </p>
               </div>
               <div className="cta-actions">
@@ -567,11 +566,11 @@ export default function Projects() {
                     arrow_outward
                   </span>
                 </Link>
-                <a className="cta-mail" href="mailto:parth.verma.dev@gmail.com">
+                <a className="cta-mail" href="mailto:parthverma733@gmail.com">
                   <span className="material-symbols-outlined" style={{ fontSize: 16, marginRight: 6 }}>
                     terminal
                   </span>
-                  parth.verma.dev@gmail.com
+                  parthverma733@gmail.com
                 </a>
               </div>
             </div>
@@ -586,32 +585,26 @@ export default function Projects() {
                 <span className="ping" />
                 <span className="ping-core" style={{ width: 12, height: 12 }} />
               </span>
-              <span>Open to AI Engineering &amp; Research Roles</span>
+              <span>Open to AI Engineering &amp; Backend Dev</span>
             </div>
             <div className="footer-links">
-              <a href="mailto:parth.verma.dev@gmail.com">
+              <a href="mailto:parthverma733@gmail.com">
                 <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
                   mail
                 </span>
-                parth.verma.dev@gmail.com
+                parthverma733@gmail.com
               </a>
-              <a href="https://github.com" rel="noreferrer" target="_blank">
+              <a href="https://github.com/Parthverma733/" rel="noreferrer" target="_blank">
                 <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
                   terminal
                 </span>
                 GitHub
               </a>
-              <a href="https://linkedin.com" rel="noreferrer" target="_blank">
+              <a href="https://www.linkedin.com/in/parth-verma-57856824a/" rel="noreferrer" target="_blank">
                 <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
                   hub
                 </span>
                 LinkedIn
-              </a>
-              <a href="https://x.com" rel="noreferrer" target="_blank">
-                <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-                  tag
-                </span>
-                Twitter/X
               </a>
             </div>
           </div>
