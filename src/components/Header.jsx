@@ -5,17 +5,15 @@ import { IconArrowUpRight, IconMenu, IconX } from './Icons'
 const HOME_LINKS = [
   { to: '/#about', label: '01. About' },
   { to: '/#skills', label: '02. Stack' },
-  { to: '/#services', label: '03. Services' },
-  { to: '/projects', label: '04. Projects' },
-  { to: '/#experience', label: '05. Experience' },
-  { to: '/#contact', label: '06. Contact' },
+  { to: '/projects', label: '03. Projects' },
+  { to: '/#experience', label: '04. Experience' },
+  { to: '/#contact', label: '05. Contact' },
 ]
 
 const ARCHIVE_LINKS = [
   { to: '/', label: 'Home', end: true },
   { to: '/#about', label: 'About' },
   { to: '/#skills', label: 'Stack' },
-  { to: '/#services', label: 'Services' },
   { to: '/projects', label: 'Projects' },
   { to: '/#experience', label: 'Experience' },
   { to: '/#contact', label: 'Contact' },
